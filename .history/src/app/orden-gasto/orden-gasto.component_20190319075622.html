@@ -1,0 +1,36 @@
+<!-- <table class="table">
+
+
+                        <th>Nombre</th>
+                        <th>Texto</th>
+                        <th>Prioridad</th>
+                        <th>Fecha</th>
+                        <th>Tipo</th>
+                        <th></th>
+                        <th></th>
+
+                        <tr *ngFor="let publicacion of  publicaciones">
+
+
+
+                            <td>{{publicacion.pubNombre}}
+                            </td>
+                            <td>{{publicacion.pubTexto}}
+                            </td>
+                            <td>{{publicacion.pubPrioridad}}
+                            </td>
+                            <td>{{publicacion.pubFecha}}
+                            </td>
+                            <td>{{publicacion.pubTipo}}
+                            </td>
+                            <td>
+                                <button   value="Actualizar" title="Actualizar" class="form-control"  (click)="onEditar(publicacion)"><i class="material-icons">cached
+                                    </i></button>
+                            </td>
+                                        <td>
+                                <button value="Eliminar" title="Eliminar" class="form-control" (click)="delatePublicaciones(publicacion)"><i class="material-icons" >delete_sweep
+                                    </i></button>
+                            </td>
+                             
+                        </tr>
+                    </table>
